@@ -8,9 +8,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ​
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 ​
-##### Bloco 1: Unix & Shell :white_check_mark:
+##### _[Bloco 1: Unix & Shell](https://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos) :white_check_mark:
 ​
-- [x] 1-3: _Unix & Shell- Part 1_
+- [x] _[1-3: _Unix & Shell- Part 1_](https://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos/01-bloco-unix-bash/03-dia-unix-bash-parte1)
 - [x] 1-4: _Unix & Shell- Part 2_
 ​
 ##### Bloco 2: Git & GitHub :hourglass_flowing_sand:

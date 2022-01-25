@@ -8,15 +8,15 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ​
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 ​
-##### _[Bloco 1: Unix & Shell](https://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos) :white_check_mark:
+##### _[Bloco 1: Unix & Shell](ttps://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos/01-bloco-unix-bash)_ :white_check_mark:
 ​
 - [x] _[1-3: _Unix & Shell- Part 1_](https://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos/01-bloco-unix-bash/03-dia-unix-bash-parte1)_
 - [x] _[1-4: _Unix & Shell- Part 2_](https://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos/01-bloco-unix-bash/03-dia-unix-bash-parte2)_
 ​
-##### Bloco 2: Git & GitHub :hourglass_flowing_sand:
+##### _[Bloco 2: Git & GitHub](https://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos/02-block-git-github-internet)_ :hourglass_flowing_sand:
 ​
-- [x] 2-1: _O que é e para que serve?_
-- [x] 2-2: _Entendendo os comandos_
+- [x] _[2-1: _O que é e para que serve?_](https://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos/02-block-git-github-internet/01-dia-git-github)_
+- [x] _[2-2: _Entendendo os comandos_](https://github.com/Igor-Alex-Castro/trybe-exercises/tree/master/01-fundamentos/02-block-git-github-internet/02-dia-git-github-comandos)_
 - [ ] 2-3: _Internet - Entendendo como ela funciona_
 ​
 ##### Bloco 3: Introdução - HTML & CSS

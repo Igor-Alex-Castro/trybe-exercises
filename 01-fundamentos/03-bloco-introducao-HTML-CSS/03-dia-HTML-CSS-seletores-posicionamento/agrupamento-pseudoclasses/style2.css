@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 100px;
+}
+div:hover{
+    border: 1px solid #000;
+}
+
+#cor-primária{
+    background-color: #0000ff;
+}
+#cor-segundaria{
+    background-color: orange;
+}
+#cor-complementar{
+    background-color: yellow;
+}
+#cor-escura{
+    background-color: rgb(2, 2, 68);
+}
+#cor-clara{
+    background-color: rgb(141, 141, 223);
+}

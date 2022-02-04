@@ -1,4 +1,4 @@
-const number;
+const number = -1;
 let messege = ""
 if(number == 0){
     messege = "Zero"
@@ -8,3 +8,4 @@ else if (number > 0){
 }else{
     messege = "negative"
 }
+console.log( messege)

@@ -1,6 +1,6 @@
 //rei, rainha, torres, bispos, cavalos, peao
 
-let peca = 'Rainha';
+let peca = 'peao';
 
 
 switch(peca.toUpperCase()){
@@ -13,11 +13,19 @@ switch(peca.toUpperCase()){
     case 'TORRES':
         console.log('Frente, para trás, para o lado esquerdo e direito, quantas casas quiser.');
         break;
-    case 'Bispos':
+    case 'BISPOS':
         console.log('Move-se na diagonal, quantas casas quiser.');
         break;
+    case 'CAVALOS':
+            console.log('Move-se em L, 3 casas para a frete ou para trás e uma para lado');
+            break;
+    case 'PEAO':
+            console.log('Na primeira movimentação pode mover 2 ou 1 casa para frente, dps de' +
+            ' movimentado pode mover apenas uma vez.');
+            break;
+   
     default:
-        console.log('Digite uma peça valida.');
-        break;
+           console.log('Digite uma peça valida.');
+           break;
 
 }

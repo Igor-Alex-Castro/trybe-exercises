@@ -22,7 +22,10 @@ if(number%2 !== 0){
 
        
 
-}else{
+}
+
+
+else{
     numberSpace = number /2
     for(let i = 1; i <= number; i += 1){
         outNumber = ""

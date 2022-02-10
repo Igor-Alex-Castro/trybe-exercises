@@ -60,6 +60,42 @@
        mudaCorVerde(document.getElementsByClassName('main-content'));
        
        mudaCorBranco(document.getElementsByClassName("center-content"));
+       
+       corrigeTitulo(document.getElementsByTagName('header'));
+       
+       UpperCase(document.getElementsByClassName('center-content'))
+    
+        
+       let imprimir = (document.getElementsByTagName('p'));
+        for(let i = 0; i < imprimir.length; i += 1){
+            imprimeTagsP(imprimir[i]);
+        }
+      
+        //ex6
+        function imprimeTagsP(tagP){
+          
+            return console.log(tagP.innerText) 
+          
+        }
+        
+        //ex5
+        function UpperCase(arrayClass){
+            let textUper = arrayClass[0].getElementsByTagName('p');
+           
+            for(let i = 0; i < textUper.length; i += 1 ){
+                textUper[i].style.textTransform = "uppercase";
+            }
+            
+            return textUper
+        }
+       
+
+        //ex4
+        function corrigeTitulo(arrayClass){
+            let titulo = arrayClass[0].getElementsByClassName('title')[0].innerText="Exercicíco 5.1 - JavaScript"
+            
+            return titulo;
+        }
 
 
         //ex3

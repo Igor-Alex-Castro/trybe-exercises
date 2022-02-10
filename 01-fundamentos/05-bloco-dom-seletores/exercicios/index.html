@@ -55,12 +55,31 @@
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
       
-        mudaTagP1(document.getElementsByTagName('p'))
+        mudaTagP1(document.getElementsByTagName('p'));
 
+       mudaCorVerde(document.getElementsByClassName('main-content'));
+       
+       mudaCorBranco(document.getElementsByClassName("center-content"));
+
+
+        //ex3
+        function mudaCorBranco(arrayClass){
+            let corFundo = arrayClass[0].style.background = "#fff"
+        }
+        //ex2
+        function mudaCorVerde(arrayClass, cor){
+            let corFundo = arrayClass[0].style.background = "rgb(76,164,109)";
+            return corFundo;
+        }
+        
+        //ex1
         function mudaTagP1 (tagText){
             let primeriaTagP = tagText[0].innerText = 'Eu me vejo um otimo profissional em uma boa empresa'
               return  primeriaTagP 
         }
+
+
+
     </script>
   </body>
 </html>

@@ -23,22 +23,53 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // a cor do mesmo;
 
 // Segue abaixo um exemplo do uso de event.target:
-let li = document.querySelector("#second-li")
+//let li = document.querySelector("#second-li")
+let divUl = document.querySelector(".container");
 
-li.addEventListener("click", adicionaClass)
-adicionaClass()
-function adicionaClass() {
-    li.className = "tech"
-  console.log("funcionou")
-}
-function resetText(event) {
+let divLi0 = divUl.children[0];
+let divLi1 = divUl.children[1];
+let divLi2 = divUl.children[2];
+
+divLi0.addEventListener("click", function(){
+  divLi0.className = "tech"
+  divLi1.className = ""
+  divLi2.className = ""
+
+})
+
+
+divLi1.addEventListener("click", function(){
+  divLi1.className = "tech"
+  divLi0.className = ""
+  divLi2.className = ""
+})
+
+
+divLi2.addEventListener("click", function(){
+  divLi2.className = "tech"
+  divLi1.className = ""
+  divLi0.className = ""
+});
+
+
+
+    //let divLi = divUl.children[number];
+    //divLi.addEventListener("click", function(){
+       // divLi.className = "tech"
+       // console.log("foi")
+    //});
+
+
+
+
+//function resetText(event) {
   // O Event é passado como um parâmetro para a função.
-  event.target.innerText = 'Opção reiniciada';
+  //event.target.innerText = 'Opção reiniciada';
   // O event possui várias propriedades, porém a mais usada é o event.target,
   // que retorna o objeto que disparou o evento.
-}
+////}
 
-firstLi.addEventListener('dblclick', resetText);
+//firstLi.addEventListener('dblclick', resetText);
 
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o

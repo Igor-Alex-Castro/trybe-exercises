@@ -3,11 +3,11 @@ body{
    margin: 0;
    padding: 0;
    height: 100%;
-   
+   font-family: 'Courier New', Courier, monospace;
    position: relative;
 color: #fff;
     background-color: #156253;
-   background-image: linear-gradient( to right, #156253, #327e56);
+   background-image: linear-gradient( to right, #c4c0c0, #327e56);
 }
 
 .color1 {color: #156253;}
@@ -15,7 +15,9 @@ color: #fff;
 .color3 {color: #9eb481;}
 .color4 {color: #e9e8bf;}
 .color5 {color: #edede2;}
-
+h1{
+    text-align: center;
+}
 form{
     width: 500px;
     
@@ -29,11 +31,11 @@ form{
 
     position: absolute;               /* 2 */
    top: -50%;                         /* 3 */
-   transform: translate(50%,25%);  /* 4 */
+   transform: translate(50%,10%);  /* 4 */
     
-   background-color: #156253;
+   background-color: #04302785;
 
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.253);
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.5);
 }
 
 .label_pessoal{
@@ -42,8 +44,11 @@ form{
 }
 textarea{
     width: 100%;
+   color: #fff;
+    
     resize: none;
     background: none;
+   
 }
 .paragrafo{
     display: inline-block;
@@ -53,4 +58,37 @@ textarea{
 }
 #input_nome, #input_email, #input_date{
     background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
 }
+#input_nome, #input_email{
+    
+    
+    width: 100%;
+}
+#text_area{
+    border: none;
+    border: 1px solid #fff;
+}
+
+textarea:focus, input:focus, select:focus
+{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+
+button{
+    padding: 10px;
+    background-color: #fff;
+    color: #156253;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    width: 100%;
+}
+
